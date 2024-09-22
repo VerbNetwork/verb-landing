@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="verbnetwork.xyz" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-security-policy" content="" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@crypto_verb" />
+    <meta name="twitter:title" content="Layer-1 verbswap" />
+    <meta
+      name="twitter:description"
+      content="Lightning-fast, decentralized, and scalable Layer-1 utilizing the proof-of-burn (PoB) consensus"
+    />
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="thumb.png" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="verbswap" />
+    <meta
+      property="og:type"
+      content="Lightning-fast, decentralized, and scalable Layer-1 utilizing the proof-of-burn (PoB) consensus"
+    />
+    <meta property="og:image" content="thumb.png" />
+    <meta property="og:description" content="Description Here" />
+    <meta property="og:site_name" content="Site Name, i.e. Moz" />
+    <style>
+      /* Add initial styles for the element */
+      .fade-in-element {
+        opacity: 0;
+        transform: translateX(
+          -20px
+        ); /* Move the element to the left initially */
+        transition: opacity 0.8s ease, transform 0.8s ease;
+      }
+    </style>
+    <title>verbswap</title>
+    <!-- HEAD_svelte-1oxa0kh_START -->
+    <meta
+      name="description"
+      content="verbswap is lightning-fast, decentralized, and scalable Layer-1 utilizing the proof-of-burn (PoB) consensus"
+    />
+    <!-- HEAD_svelte-1oxa0kh_END -->
+    <link
+      rel="stylesheet"
+      href="_app/immutable/assets/pages/__layout.svelte-18007a9a.css"
+    />
+    <link
+      rel="stylesheet"
+      href="_app/immutable/assets/pages/index.svelte-a3b2dd18.css"
+    />
+    <link
+      rel="stylesheet"
+      href="_app/immutable/assets/SectionTitle-b03cf982.css"
+    />
+    <link rel="stylesheet" href="_app/immutable/assets/LinkCard-99eca243.css" />
+    <link rel="modulepreload" href="_app/immutable/start-c2ec07f4.js" />
+    <link rel="modulepreload" href="_app/immutable/chunks/index-869bf06f.js" />
+    <link rel="modulepreload" href="_app/immutable/chunks/index-d407b359.js" />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/pages/__layout.svelte-434541af.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/queries-e2c53d05.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/constants-126812a0.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/_commonjsHelpers-7d66b65f.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/Twitter-4621074b.js"
+    />
+    <link rel="modulepreload" href="_app/immutable/chunks/index-e53167be.js" />
+    <link rel="modulepreload" href="_app/immutable/chunks/Close-59dce424.js" />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/pages/index.svelte-018ef894.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/SectionTitle-963fd288.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/MetricTitle-d8e19629.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/LinkCard-63ea7d36.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/CardCategory-5dd24cae.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/Updates-1e4f5801.js"
+    />
+    <link
+      rel="modulepreload"
+      href="_app/immutable/chunks/Integrated-ed7a0d0b.js"
+    />
+    <style>
+      .background-video {
+        position: fixed;
+        /* transform: translate(-50%, -50%); */
+        top: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1; /* Place the video behind other content */
+      }
+
+      .content {
+        position: relative;
+        z-index: 1; /* Place the content above the video */
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0),
+          rgba(0, 0, 0, 0.9),
+          rgba(0, 0, 0, 0.8)
+        ); /* Adjust opacity values as needed */
+        z-index: -1; /* Place the overlay behind the video */
+      }
+      .youtube {
+        border-radius: 5px;
+        border: 1px solid rgb(40 244 175 / var(--tw-bg-opacity));
+        height: 600px;
+      }
+      @media screen and (max-width: 600px) {
+        /* Hide video on screens smaller than 600 pixels wide */
+        .youtube {
+        height:200px;
+      }
+        .people {
+          display: none;
+        }
+        .background-video {
+          top: 20%;
+        }
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0),
+            rgba(0, 0, 0, 0.4)
+          ); /* Adjust opacity values as needed */
+          z-index: -1; /* Place the overlay behind the video */
+        }
+      }
+      body {
+      }
+    </style>
+  </head>
+
+  <body>
+    <video class="background-video" autoplay loop muted>
+      <source src="videos/home-hero.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+
+    <main class="container mx-auto min-h-full flex flex-col">
+      <div class="hidden xl:block" style="z-index: 10">
+        <div
+          class="text-white py-[38px] flex items-center justify-between space-x-8"
+        >
+          <a href="index.html"
+            ><img
+              width="160px"
+              height="34px"
+              src="images/logos/full-dark.png"
+              alt="logo"
+          /></a>
+
+          <div
+            class="hidden xl:flex xl:items-center xl:space-x-[40px] text-xsmall lg:text-small font-bold"
+          ></div>
+
+          <div class="flex space-x-[25px] items-right text-white">
+            <a
+              href="https://linktr.ee/verbnetworks"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-light-blue hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                overflow="visible"
+              >
+                <path
+                  d="M10.802 17.77a.703.703 0 1 1-.002 1.406.703.703 0 0 1 .002-1.406m11.024-4.347a.703.703 0 1 1 .001-1.406.703.703 0 0 1-.001 1.406m0-2.876a2.176 2.176 0 0 0-2.174 2.174c0 .233.039.465.115.691l-7.181 3.823a2.165 2.165 0 0 0-1.784-.937c-.829 0-1.584.475-1.95 1.216l-6.451-3.402c-.682-.358-1.192-1.48-1.138-2.502.028-.533.212-.947.493-1.107.178-.1.392-.092.62.027l.042.023c1.71.9 7.304 3.847 7.54 3.956.363.169.565.237 1.185-.057l11.564-6.014c.17-.064.368-.227.368-.474 0-.342-.354-.477-.355-.477-.658-.315-1.669-.788-2.655-1.25-2.108-.987-4.497-2.105-5.546-2.655-.906-.474-1.635-.074-1.765.006l-.252.125C7.78 6.048 1.46 9.178 1.1 9.397.457 9.789.058 10.57.006 11.539c-.08 1.537.703 3.14 1.824 3.727l6.822 3.518a2.175 2.175 0 0 0 2.15 1.862 2.177 2.177 0 0 0 2.173-2.14l7.514-4.073c.38.298.853.461 1.337.461A2.176 2.176 0 0 0 24 12.72a2.176 2.176 0 0 0-2.174-2.174"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+       
+            <a
+              href="https://t.me/verbgroup"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-light-blue hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1131_7837)">
+                  <path
+                    d="M7.29138 14.6766V18.5416C7.29138 18.8116 7.46471 19.0508 7.72138 19.1358C7.78555 19.1566 7.85138 19.1666 7.91638 19.1666C8.11138 19.1666 8.29971 19.075 8.41971 18.9116L10.6805 15.835L7.29138 14.6766Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86257C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1131_7837">
+                    <rect width="20" height="20" fill="currentColor"></rect>
+                  </clipPath>
+                </defs></svg
+            ></a>
+
+            <a
+              href="https://twitter.com/verb_network"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-light-blue hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1131_7839)">
+                  <path
+                    d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1131_7839">
+                    <rect width="20" height="20" fill="currentColor"></rect>
+                  </clipPath>
+                </defs></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="xl:hidden flex flex-col z-10" style="z-index: 10">
+        <div
+          class="text-white py-[15px] flex items-center justify-between space-x-8"
+        >
+          <a href="index.html"
+            ><img
+              width="140px"
+              height="30px"
+              src="images/logos/full-dark.png"
+              alt="logo"
+          /></a>
+
+          <div class="flex space-x-[20px] items-center text-white" style="display: flex;">
+              <a
+              href="https://linktr.ee/verbnetworks"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                overflow="visible"
+              >
+                <path
+                  d="M10.802 17.77a.703.703 0 1 1-.002 1.406.703.703 0 0 1 .002-1.406m11.024-4.347a.703.703 0 1 1 .001-1.406.703.703 0 0 1-.001 1.406m0-2.876a2.176 2.176 0 0 0-2.174 2.174c0 .233.039.465.115.691l-7.181 3.823a2.165 2.165 0 0 0-1.784-.937c-.829 0-1.584.475-1.95 1.216l-6.451-3.402c-.682-.358-1.192-1.48-1.138-2.502.028-.533.212-.947.493-1.107.178-.1.392-.092.62.027l.042.023c1.71.9 7.304 3.847 7.54 3.956.363.169.565.237 1.185-.057l11.564-6.014c.17-.064.368-.227.368-.474 0-.342-.354-.477-.355-.477-.658-.315-1.669-.788-2.655-1.25-2.108-.987-4.497-2.105-5.546-2.655-.906-.474-1.635-.074-1.765.006l-.252.125C7.78 6.048 1.46 9.178 1.1 9.397.457 9.789.058 10.57.006 11.539c-.08 1.537.703 3.14 1.824 3.727l6.822 3.518a2.175 2.175 0 0 0 2.15 1.862 2.177 2.177 0 0 0 2.173-2.14l7.514-4.073c.38.298.853.461 1.337.461A2.176 2.176 0 0 0 24 12.72a2.176 2.176 0 0 0-2.174-2.174"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+            <a
+              href="https://t.me/verbgroup"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1131_7837)">
+                  <path
+                    d="M7.29138 14.6766V18.5416C7.29138 18.8116 7.46471 19.0508 7.72138 19.1358C7.78555 19.1566 7.85138 19.1666 7.91638 19.1666C8.11138 19.1666 8.29971 19.075 8.41971 18.9116L10.6805 15.835L7.29138 14.6766Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86257C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1131_7837">
+                    <rect width="20" height="20" fill="currentColor"></rect>
+                  </clipPath>
+                </defs></svg
+            ></a>
+            <a
+              href="https://twitter.com/verb_network"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1131_7839)">
+                  <path
+                    d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1131_7839">
+                    <rect width="20" height="20" fill="currentColor"></rect>
+                  </clipPath>
+                </defs></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="banner svelte-15iwmkd" style="z-index: 10"></div>
+
+      <div class="flex-1">
+        <div>
+          <div>
+            <section class="pb-[35px] lg:pb-[95px]">
+              <div
+                style="
+                  width: 100%;
+                  background: black;
+                  position: absolute;
+                  z-index: 0;
+                  top: -100px;
+                  margin-top: 120px;
+                  left: 0;
+                "
+              >
+                <video
+                  poster="videos/people.png"
+                  class="people"
+                  src="videos/people.mov"
+                  style="width: 100%; height: 700px"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                >
+                  <track kind="captions" />
+                </video>
+              </div>
+              <div
+                style="
+                  width: 100%;
+                  background: black;
+                  position: absolute;
+                  z-index: 1;
+                  top: 0;
+                  margin-top: 120px;
+                  left: 0;
+                  opacity: 0.8;
+                "
+              ></div>
+              <div class="relative flex mt-[20px] lg:mt-[76px] lg:items-center">
+                <div
+                  class="absolute lg:hidden w-[280px] h-[280px] sm:w-[510px] sm:h-[510px] left-0 right-0 mx-auto bg-medium-gray"
+                >
+                  <video
+                    poster="videos/home-img.png"
+                    src="videos/home-hero.mp4"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                  >
+                    <track kind="captions" />
+                  </video>
+                </div>
+                <div
+                  class="flex flex-col mt-[250px] sm:mt-[470px] lg:mt-0 space-y-[25px] w-full lg:w-7/12 lg:text-left text-center z-[1]"
+                >
+                  <h1
+                    class="text-m-h1 pt-[25px] sm:text-d-h1 text-text-primary font-extrabold text-light-blue"
+                  >
+                    Verb
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide text-light-blue pb-2 lg:pb-0">
+                          Meta Aggregators 
+                        </div>
+                      </div>
+                    </div>
+                  </h1>
+
+                  <p
+                    class="text-normal sm:text-d-lead text-text-secondary font-medium"
+                  >
+                  The Aggregator of Aggregators, looks for the best route for your trade
+                  among a variety of Dex Aggregators. 
+                  </p>
+
+                  <div
+                    class="flex flex-col sm:flex-row sm:space-x-[20px] space-y-[10px] sm:space-y-0 justify-start sm:justify-center lg:justify-start"
+                  >
+                    <a href="https://app.verbnetwork.xyz/"
+                      ><button
+                      style="font-size: 20px; border-radius: 20px; font-weight: 700;"
+                        class=" text-light-blue flex py-[15px] light-blue px-[25px] font-extrabold border-[1px] border-text-teriary hover:border-text-primary hover:size-110 text-text-primary space-x-[14px] hover:scale-105 transform transition duration-250 justify-center w-full py-[13px] lg:py-[15px] text-black border-0 svelte-fghqb text-green"
+                      >
+                        <div>Swap now</div>
+                      </button></a
+                    >
+
+                    <!-- <a href="https://https://linktr.ee/verbnetworks/"
+                      ><button
+                        class="flex py-[15px] px-[25px] font-extrabold border-[1px] border-text-teriary hover:border-text-primary hover:size-110 text-text-primary space-x-[14px] hover:scale-105 transform transition duration-250 justify-center w-full py-[13px] lg:py-[15px] svelte-fghqb"
+                      >
+                        <div>Docs</div>
+                      </button></a
+                    > -->
+                  </div>
+                </div>
+                <!-- 
+                <div
+                  class="absolute -right-10 xl:-right-14 w-5/12 xl:w-4/12 aspect-square bg-medium-gray hidden lg:block"
+                  style="z-index: 0;"
+                >
+                  <video
+                    poster="images/video-posters/home-hero-poster.jpg"
+                    src="videos/home-hero.mp4"
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                  >
+                    <track kind="captions" />
+                  </video>
+                </div> -->
+              </div>
+            </section>
+         
+            <section class="pb-[35px] lg:pb-[75px]">
+              <h1
+                class="uppercase font-bold text-title-medium lg:text-title-big tracking-[.2em] text text-center text-light-blue"
+              >
+                What is verbswap?
+              </h1>
+              <h1
+                class="font-extrabold text-m-h2 lg:text-d-h2 text-center mt-[10px] md:mt-[30px]"
+              >
+                 The Aggregator of Aggregators
+              </h1>
+              <div style=" gap: 26px; width: 100%;  display: inline-flex;
+              flex-direction: row; justify-content:center; margin-top: 2rem;
+              flex-wrap: wrap;">
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_ethereum?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_arbitrum?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_polygon?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_binance?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_optimism?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_base?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_avalanche?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_fantom?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_zksync era?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_polygon zkevm?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_linea?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_gnosis?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_aurora?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_cronos?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_celo?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_moonriver?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_heco?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_boba?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_oktchain?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_bittorrent?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_moonbeam?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_fuse?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_kava?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_metis?w=48&h=48'/>
+                <img style="border-radius: 50%" src='https://icons.llamao.fi/icons/chains/rsz_velas?w=48&h=48'/>
+            </div>
+              <div
+                class="flex items-center flex-col lg:flex-row xl:flex-row justify-center gap-4 mt-[30px] md:mt-[40px]"
+              >
+                <div class="flex-1 text-center lg:text-left space-y-[20px]">
+                  <div class="text-center lg:text-left space-y-[20px]">
+                    <p class="font text-small lg:text-d-lead text-center text-text-primary">
+                      These Dex Aggregators themselves compile different trading routes from various decentralized exchanges. By analyzing multiple Dex Aggregators, the Aggregator of Aggregators can identify the most efficient and cost-effective trading path. 
+                      <!-- <span class="font-bold">Verb</span> represents an
+                      innovative blockchain project or technology designed to
+                      function as a Layer-1 network. The term
+                      <span class="chain svelte-1k6amxb" style="color: #f2a900"
+                        >Layer-1 </span
+                      ><span>, </span>indicates that it is the primary
+                      blockchain layer where core consensus and transaction
+                      validation occur. Here are key features associated with
+                      <span class="font-bold">Verb</span>. -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+      
+            <section class="pb-[35px] lg:pb-[75px]">
+              <h1
+                class="uppercase font-bold text-title-medium lg:text-title-big tracking-[.2em] text-light-blue text-center"
+              >
+                FEATURES
+              </h1>
+              <h1
+                class="font-extrabold text-light-blue text-m-h2 lg:text-d-h2 text-center mt-[10px] md:mt-[30px]"
+              >
+                Swap tokens superior rate
+              </h1>
+              <h3
+                class="font-normal text-small lg:text-d-lead text-text-primary text-center mt-[10px] md:mt-[30px]"
+              >
+              VerbSwap looks for the best route for your trade
+                  among a variety of Dex Aggregators, guaranteeing you
+                  the best execution prices in DeFi.
+              </h3>
+
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-[15px] md:gap-[30px] text-white mt-[30px] md:mt-[40px]"
+              >
+                <div
+                  class="flex flex-col overflow-hidden border-[1px] border-gray p-[25px] lg:p-[30px]"
+                >
+                  <img
+                    width="70px"
+                    height="70px"
+                    src="images/icons/safe-box.png"
+                    alt="connect"
+                  />
+                  <h1
+                    class="font-extrabold mt-1 lg:mt-[10px] text-m-h4 md:text-d-h4"
+                  >
+                    Zero fee
+                  </h1>
+                  <div
+                    class="flex-1 font-medium text-small text-text-secondary mt-[10px]"
+                  >
+                    You'll get the exact same price swapping through DefiLlama as what you'd get swapping through the chosen aggregator directly.
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col overflow-hidden border-[1px] border-gray p-[25px] lg:p-[30px]"
+                >
+                  <img
+                    width="70px"
+                    height="70px"
+                    src="images/icons/key.png"
+                    alt="tree"
+                  />
+                  <h1
+                    class="font-extrabold mt-1 lg:mt-[10px] text-m-h4 md:text-d-h4"
+                  >
+                  Preserves Privacy
+                  </h1>
+                  <div
+                    class="flex-1 font-medium text-small text-text-secondary mt-[10px]"
+                  >
+                  Our aggregator have private mode to avoid leaking your IP
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col overflow-hidden border-[1px] border-gray p-[25px] lg:p-[30px]"
+                >
+                  <img
+                    width="70px"
+                    height="70px"
+                    src="images/icons/bitcoin.png"
+                    alt="shield"
+                  />
+                  <h1
+                    class="font-extrabold mt-1 lg:mt-[10px] text-m-h4 md:text-d-h4"
+                  >
+                    Gas estimation
+                  </h1>
+                  <div
+                    class="flex-1 font-medium text-small text-text-secondary mt-[10px]"
+                  >
+                  We inflate gas limit of txs on MetaMask by +40% to ensure that there's nothing unexpected that could trigger out-of-gas reverts.
+                  </div>
+                  <a
+                    href="https://https://linktr.ee/verbnetworks/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><button
+                      class="flex py-[15px] px-[25px] font-extrabold border-[1px] border-text-teriary hover:border-text-primary hover:size-110 text-text-primary space-x-[14px] hover:scale-105 transform transition duration-250 text-text-primary w-[100%] mt-5 justify-center svelte-fghqb"
+                    >
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.92 6.62C17.8185 6.37565 17.6243 6.18147 17.38 6.08C17.2598 6.02876 17.1307 6.00158 17 6H7C6.73478 6 6.48043 6.10536 6.29289 6.29289C6.10536 6.48043 6 6.73478 6 7C6 7.26522 6.10536 7.51957 6.29289 7.70711C6.48043 7.89464 6.73478 8 7 8H14.59L6.29 16.29C6.19627 16.383 6.12188 16.4936 6.07111 16.6154C6.02034 16.7373 5.9942 16.868 5.9942 17C5.9942 17.132 6.02034 17.2627 6.07111 17.3846C6.12188 17.5064 6.19627 17.617 6.29 17.71C6.38296 17.8037 6.49356 17.8781 6.61542 17.9289C6.73728 17.9797 6.86799 18.0058 7 18.0058C7.13201 18.0058 7.26272 17.9797 7.38458 17.9289C7.50644 17.8781 7.61704 17.8037 7.71 17.71L16 9.41V17C16 17.2652 16.1054 17.5196 16.2929 17.7071C16.4804 17.8946 16.7348 18 17 18C17.2652 18 17.5196 17.8946 17.7071 17.7071C17.8946 17.5196 18 17.2652 18 17V7C17.9984 6.86932 17.9712 6.74022 17.92 6.62Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <div><p class="font-bold text-xsmall">Learn More</p></div>
+                    </button></a
+                  >
+                </div>
+                <div
+                  class="flex flex-col overflow-hidden border-[1px] border-gray p-[25px] lg:p-[30px]"
+                >
+                  <img
+                    width="70px"
+                    height="70px"
+                    src="images/icons/shield.png"
+                    alt="coin"
+                  />
+                  <h1
+                  class="font-extrabold mt-1 lg:mt-[10px] text-m-h4 md:text-d-h4"
+                >
+                  Security
+                </h1>
+                <div
+                  class="flex-1 font-medium text-small text-text-secondary mt-[10px]"
+                >
+                Our aggregator uses the router contract of each aggregator, we don't use any contracts developed by us. Thus you inherit the same security you'd get by swapping directly from their UI instead of ours.
+                </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="pb-[35px] lg:pb-[75px]">
+              <h1
+              style="font-size: 26px;"
+                class="uppercase font-bold text-title-medium lg:text-title-big tracking-[.2em] text-light-blue text-center"
+              >
+              Powered by
+            </h1>
+            <div style=" gap: 16px; width: 100%;  display: inline-flex;
+            flex-direction: row; justify-content:center; margin-top: 2rem;
+            flex-wrap: wrap;">
+              <img style="width: 200px; border-radius: 10px" src='assets/power/1.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/2.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/3.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/4.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/5.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/6.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/7.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/8.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/9.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/10.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/11.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/12.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/13.png'/>
+              <img style="width: 200px; border-radius: 10px" src='assets/power/14.png'/>
+   
+          
+          </div>
+              <!-- <div
+                class="grid grid-cols-2 rgbgrid-cols-3 2xl:grid-cols-6 items-center mt-6 px-6 sm:px-3 py-3 gap-4"
+              >
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://injective.com/"
+                    ><img src="images/integrated/injective.jpeg"
+                  /></a>
+                </div>
+
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://trustwallet.com/"
+                    ><img src="images/integrated/trust.png"
+                  /></a>
+                </div>
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://shapeshift.com/"
+                    ><img
+                      class="object-bottom"
+                      src="images/integrated/shapeshift.png"
+                  /></a>
+                </div>
+
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://xdefi.io/"
+                    ><img src="images/integrated/xdefi.png"
+                  /></a>
+                </div>
+
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://www.dexview.com/"
+                    ><img src="images/integrated/dexview.jpeg"
+                  /></a>
+                </div>
+                <div
+                  class="flex-1 content-center px-4 md:px-12 xl:px-16 2xl:px-5 py-2 md:py-3 hover:scale-110 transform transition duration-500"
+                >
+                  <a href="https://www.pinksale.finance"
+                    ><img src="images/integrated/pinksale.webp"
+                  /></a>
+                </div>
+              </div> -->
+            </section>
+            
+            <section class="pb-[35px] lg:pb-[75px]">
+              <h1
+                class="uppercase font-bold text-title-medium lg:text-title-big tracking-[.2em] text-light-blue text-center"
+              >
+                UPCOMING
+              </h1>
+              <h1
+                class="font-extrabold text-m-h2 lg:text-d-h2 text-text-primary text-center mt-[10px] md:mt-[30px]"
+              >
+                Seamless liquidity provider
+              </h1>
+              <h3
+                class="font-normal text-small lg:text-d-lead text-text-primary text-center mt-[10px] md:mt-[30px]"
+              >
+                 Anyone can provide liquidity to VerbSwap by depositing tokens e.g. Traders, Token Teams.
+              </h3>
+
+              <div
+                class="grid grid-cols-1 lg:grid-cols-3 gap-[50px] border-[1px] border-green px-[30px] py-[30px] mt-[30px] md:mt-[40px]"
+              >
+                <div class="col-span-2">
+                  <p
+                    class="font-medium text-normal lg:text-d-lead text-text-primary mt-[20px]"
+                  >
+                    Anyone can access this liquidity from VernSwap for their own use case e.g. Dapps, Aggregators.
+                  </p>
+                  <br />
+                  <div class="flex">
+                    <a href="https://https://linktr.ee/verbnetworks/whitepaper/roadmap" target="_blank" rel="noopener noreferrer"
+                      ><h2
+                        class="font-bold text-title-medium tracking-[.2em] text-black bg-green py-[6px] px-4 hover:scale-110 transform transition duration-500"
+                      >
+                        What&#39;s Coming in 2024?
+                      </h2></a
+                    >
+                  </div>
+                </div>
+                <div class="space-y-[10px]">
+                  <a
+                    href="https://https://linktr.ee/verbnetworks"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Synthetic Assets
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://dev.verbnetwork.xyz/verbswap-dev/aggregators/aggregator-overview"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        DEX Aggregation
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://https://linktr.ee/verbnetworks/verb-finance/incentivised-liquidity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Savers Vaults
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://https://linktr.ee/verbnetworks/verbswap-finance/synthetic-asset-model#protocol-owned-liquidity-pol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Protocol Owned Liquidity
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://gitlab.com/verbswap/VERBnode/-/issues/1511"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Message Passing
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://https://linktr.ee/verbnetworks/verbswap-finance/continuous-liquidity-pools#streaming-swaps-and-swap-optimisation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Streaming Swaps
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://https://linktr.ee/verbnetworks/verbswap-finance/lending"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <svg
+                        class="w-[20px] h-[20px] bg-green py-[2px] px-[2px]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.71 7.21001C18.617 7.11628 18.5064 7.04189 18.3846 6.99112C18.2627 6.94035 18.132 6.91422 18 6.91422C17.868 6.91422 17.7373 6.94035 17.6154 6.99112C17.4936 7.04189 17.383 7.11628 17.29 7.21001L9.84001 14.67L6.71001 11.53C6.61349 11.4368 6.49955 11.3635 6.37469 11.3143C6.24984 11.2651 6.11651 11.2409 5.98233 11.2432C5.84815 11.2456 5.71574 11.2743 5.59266 11.3278C5.46959 11.3813 5.35825 11.4585 5.26501 11.555C5.17177 11.6515 5.09846 11.7655 5.04925 11.8903C5.00005 12.0152 4.97592 12.1485 4.97824 12.2827C4.98056 12.4169 5.00929 12.5493 5.06278 12.6724C5.11628 12.7954 5.19349 12.9068 5.29001 13L9.13001 16.84C9.22297 16.9337 9.33358 17.0081 9.45543 17.0589C9.57729 17.1097 9.708 17.1358 9.84001 17.1358C9.97202 17.1358 10.1027 17.1097 10.2246 17.0589C10.3464 17.0081 10.457 16.9337 10.55 16.84L18.71 8.68001C18.8115 8.58637 18.8925 8.47272 18.9479 8.34622C19.0033 8.21972 19.0319 8.08312 19.0319 7.94501C19.0319 7.80691 19.0033 7.67031 18.9479 7.54381C18.8925 7.41731 18.8115 7.30366 18.71 7.21001Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Lending
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://gitlab.com/verbswap/VERBnode/-/issues/1569"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <div
+                        class="h-[20px] w-[20px] border-[1px] border-white"
+                      ></div>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Memoless Transactions
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://gitlab.com/verbswap/VERBnode/-/issues/1364"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <div
+                        class="h-[20px] w-[20px] border-[1px] border-white"
+                      ></div>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Order Book
+                      </p>
+                    </div></a
+                  >
+                  <a
+                    href="https://gitlab.com/verbswap/VERBnode/-/issues/1456"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="flex items-center text-black">
+                      <div
+                        class="h-[20px] w-[20px] border-[1px] border-white"
+                      ></div>
+
+                      <p class="font-bold text-small text-white ml-[5px]">
+                        Perpetuals
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </section>
+            <section class="pb-[35px] lg:pb-[75px]">
+              <h1
+              class="uppercase font-bold text-title-medium lg:text-title-big tracking-[.2em] text-light-blue text-center"
+            >
+              OUR INTRODUCE
+            </h1>
+            <br/>
+              <iframe width="100%" class="youtube" src="https://www.youtube.com/embed/gN-c8_1UXTg">
+              </iframe>
+            </section>
+            <section class="pb-[35px] lg:pb-[75px]">
+              <div class="grid grid-cols-1 gap-[15px] md:gap-[30px] text-white">
+             
+
+                <div class="sa flex svelte-1baxaqp">
+                  <div
+                    class="flex flex-col overflow-hidden border-[1px] border-gray p-[25px] lg:p-[30px] w-full"
+                  >
+                    <h1
+                      class="uppercase font-extrabold text-title-small md:text-title-medium tracking-[0.2em] text-purple"
+                    >
+                      Documentation
+                    </h1>
+
+                    <h1
+                      class="font-extrabold mt-1 lg:mt-[10px] text-m-h4 md:text-d-h3"
+                    >
+                      verbswap Documentation
+                    </h1>
+
+                    <div
+                      class="flex-1 font-medium text-small text-text-secondary mt-[10px]"
+                    >
+                      Read about the protocol in more depth by visiting the
+                      verbswap documentation.
+                    </div>
+
+                    <a
+                      href="https://linktr.ee/verbnetworks"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><button
+                        class="flex py-[15px] px-[25px] font-extrabold border-[1px] border-text-teriary hover:border-text-primary hover:size-110 text-text-primary space-x-[14px] hover:scale-105 transform transition duration-250 text-text-primary w-[100%] mt-5 justify-center svelte-fghqb"
+                      >
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M17.92 6.62C17.8185 6.37565 17.6243 6.18147 17.38 6.08C17.2598 6.02876 17.1307 6.00158 17 6H7C6.73478 6 6.48043 6.10536 6.29289 6.29289C6.10536 6.48043 6 6.73478 6 7C6 7.26522 6.10536 7.51957 6.29289 7.70711C6.48043 7.89464 6.73478 8 7 8H14.59L6.29 16.29C6.19627 16.383 6.12188 16.4936 6.07111 16.6154C6.02034 16.7373 5.9942 16.868 5.9942 17C5.9942 17.132 6.02034 17.2627 6.07111 17.3846C6.12188 17.5064 6.19627 17.617 6.29 17.71C6.38296 17.8037 6.49356 17.8781 6.61542 17.9289C6.73728 17.9797 6.86799 18.0058 7 18.0058C7.13201 18.0058 7.26272 17.9797 7.38458 17.9289C7.50644 17.8781 7.61704 17.8037 7.71 17.71L16 9.41V17C16 17.2652 16.1054 17.5196 16.2929 17.7071C16.4804 17.8946 16.7348 18 17 18C17.2652 18 17.5196 17.8946 17.7071 17.7071C17.8946 17.5196 18 17.2652 18 17V7C17.9984 6.86932 17.9712 6.74022 17.92 6.62Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+
+                        <div>
+                          <p class="font-bold text-xsmall">
+                            Go to Documentation
+                          </p>
+                        </div>
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div
+          class="pt-[36px] lg:pt-[80px] pb-[40px] lg:pb-[60px] sm:p-[5px] space-y-[25px] lg:space-y-[80px] border-t-[1px] border-medium-gray"
+        >
+          <div class="flex flex-wrap gap-y-[25px] lg:gap-y-[50px]">
+            <div class="flex flex-col w-1/2 sm:w-1/4 md:w-1/4 lg:1/4">
+              <p
+                class="text-small lg:text-d-h4 text-text-primary font-extrabold"
+              >
+                Verbswap
+              </p>
+
+              <div
+                class="flex flex-col space-y-[10px] mt-[15px] lg:mt-[28px] text-xxsmall sm:text-xsmall md:text-small text-text-secondary"
+              >
+                <!-- <a
+                  href="https://https://linktr.ee/verbnetworks/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Documentation
+                </a>
+                <a
+                  href="https://https://linktr.ee/verbnetworks/whitepaper/layer-1-tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Whitepapers
+                </a> -->
+                <a
+                  href="https://app.verbnetwork.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Dashboard
+                </a>
+                <!-- <a
+                  href="https://github.com/coinsult-solidity/solidity/blob/main/Coinsult_verbswap_%200x8...21a%20Audit%20SAFU.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Audits
+                </a>
+                <a
+                  href="https://https://linktr.ee/verbnetworks/verb-finance/incentivised-liquidity"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Medium</a
+                > -->
+              </div>
+            </div>
+
+            <!-- <div class="flex flex-col w-1/2 sm:w-1/4 md:w-1/4 lg:1/4">
+              <p
+                class="text-small lg:text-d-h4 text-text-primary font-extrabold"
+              >
+                Develop
+              </p>
+
+              <div
+                class="flex flex-col space-y-[10px] mt-[15px] lg:mt-[28px] text-xxsmall sm:text-xsmall md:text-small md:text-small text-text-secondary"
+              >
+                <a
+                  href="https://dev.verbnetwork.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Documentation
+                </a>
+              </div>
+            </div> -->
+
+            <div class="flex flex-col w-1/2 sm:w-1/4 md:w-1/4 lg:1/4">
+              <p
+                class="text-small lg:text-d-h4 text-text-primary font-extrabold"
+              >
+                Community
+              </p>
+
+              <div
+                class="flex flex-col space-y-[10px] mt-[15px] lg:mt-[28px] text-xxsmall sm:text-xsmall md:text-small text-text-secondary"
+              >
+                <a
+                  href="https://linktr.ee/verbnetworks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Linktree</a
+                >
+                <a
+                  href="https://twitter.com/verb_network"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white hover:scale-105 transform transition duration-250"
+                  >Twitter</a
+                >
+                <a
+                href="https://t.me/verbgroup"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white hover:scale-105 transform transition duration-250"
+                >Telegram Group</a
+              >
+              <a
+              href="https://t.me/verbchannel"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-white hover:scale-105 transform transition duration-250"
+              >Telegram Channel</a
+            >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-wrap gap-y-[25px] justify-between text-text-teriary"
+          >
+            <p class="text-xsmall">
+              All verbswap brand is public domain. No rights reserved.
+            </p>
+
+            <div
+              class="flex items-center space-x-[20px] order-first sm:order-1"
+            >
+              <!-- <a
+                href="https://https://linktr.ee/verbnetworks/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg
+                  class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  overflow="visible"
+                >
+                  <path
+                    d="M10.802 17.77a.703.703 0 1 1-.002 1.406.703.703 0 0 1 .002-1.406m11.024-4.347a.703.703 0 1 1 .001-1.406.703.703 0 0 1-.001 1.406m0-2.876a2.176 2.176 0 0 0-2.174 2.174c0 .233.039.465.115.691l-7.181 3.823a2.165 2.165 0 0 0-1.784-.937c-.829 0-1.584.475-1.95 1.216l-6.451-3.402c-.682-.358-1.192-1.48-1.138-2.502.028-.533.212-.947.493-1.107.178-.1.392-.092.62.027l.042.023c1.71.9 7.304 3.847 7.54 3.956.363.169.565.237 1.185-.057l11.564-6.014c.17-.064.368-.227.368-.474 0-.342-.354-.477-.355-.477-.658-.315-1.669-.788-2.655-1.25-2.108-.987-4.497-2.105-5.546-2.655-.906-.474-1.635-.074-1.765.006l-.252.125C7.78 6.048 1.46 9.178 1.1 9.397.457 9.789.058 10.57.006 11.539c-.08 1.537.703 3.14 1.824 3.727l6.822 3.518a2.175 2.175 0 0 0 2.15 1.862 2.177 2.177 0 0 0 2.173-2.14l7.514-4.073c.38.298.853.461 1.337.461A2.176 2.176 0 0 0 24 12.72a2.176 2.176 0 0 0-2.174-2.174"
+                    fill="currentColor"
+                  ></path></svg
+              ></a> -->
+              <a
+                href="https://t.me/verbgroup"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg
+                  class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1131_7837)">
+                    <path
+                      d="M7.29138 14.6766V18.5416C7.29138 18.8116 7.46471 19.0508 7.72138 19.1358C7.78555 19.1566 7.85138 19.1666 7.91638 19.1666C8.11138 19.1666 8.29971 19.075 8.41971 18.9116L10.6805 15.835L7.29138 14.6766Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M19.7375 0.115907C19.5459 -0.0199262 19.2942 -0.0382595 19.0859 0.0709072L0.33587 9.86257C0.114204 9.97841 -0.0166296 10.2151 0.00170373 10.4642C0.0208704 10.7142 0.186704 10.9276 0.422537 11.0084L5.63504 12.7901L16.7359 3.29841L8.14587 13.6476L16.8817 16.6334C16.9467 16.6551 17.015 16.6667 17.0834 16.6667C17.1967 16.6667 17.3092 16.6359 17.4084 16.5759C17.5667 16.4792 17.6742 16.3167 17.7017 16.1342L19.9934 0.717574C20.0275 0.484241 19.9292 0.252574 19.7375 0.115907Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1131_7837">
+                      <rect width="20" height="20" fill="currentColor"></rect>
+                    </clipPath>
+                  </defs></svg
+              ></a>
+              <a
+                href="https://twitter.com/verb_network"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg
+                  class="w-5 h-5 hover:text-white hover:scale-105 transform transition duration-250"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_1131_7839)">
+                    <path
+                      d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1131_7839">
+                      <rect width="20" height="20" fill="currentColor"></rect>
+                    </clipPath>
+                  </defs></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script></script>
+
+    <script type="module" data-sveltekit-hydrate="1htzmy">
+      import { start } from "/_app/immutable/start-c2ec07f4.js";
+      start({
+        target: document.querySelector('[data-sveltekit-hydrate="1htzmy"]')
+          .parentNode,
+        paths: { base: "", assets: "" },
+        session: {},
+        route: true,
+        spa: false,
+        trailing_slash: "never",
+        hydrate: {
+          status: 200,
+          error: null,
+          nodes: [0, 4],
+          params: {},
+          routeId: "",
+        },
+      });
+    </script>
+  </body>
+  <script>
+    // Get the video element
+    const video = document.querySelector(".people");
+
+    // Set the playback speed (e.g., 2x faster)
+    video.playbackRate = 4.0;
+
+    const videos = document.querySelector(".background-video");
+
+    // Set the playback speed (e.g., 2x faster)
+    videos.playbackRate = 3.0;
+  </script>
+
+  <!-- Mirrored from verbnetwork.xyz/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 15:56:36 GMT -->
+</html>

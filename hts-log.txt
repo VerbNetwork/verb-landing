@@ -1,0 +1,14 @@
+HTTrack3.49-2 launched on Sat, 23 Dec 2023 22:55:14 at https://thorchain.org/
+(httrack https://thorchain.org/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:57:52	Error: 	"Not Found" (404) at link https://thorchain.org/images/video-posters/home-hero-poster.png (from https://thorchain.org/)
+22:57:54	Error: 	"Not Found" (404) at link https://thorchain.org/images/services/ThorCharts_Logo&Text_White.svg (from https://thorchain.org/images/services/thorcharts.svg)
+22:57:54	Error: 	"Not Found" (404) at link https://thorchain.org/images/services/Test2.svg (from https://thorchain.org/images/services/thorcharts.svg)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 40 seconds : 160 links scanned, 156 files written (18867643 bytes overall) [18571210 bytes received at 116070 bytes/sec], 549190 bytes transferred using HTTP compression in 16 files, ratio 19%
+(3 errors, 0 warnings, 0 messages)
